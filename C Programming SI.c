@@ -6,13 +6,13 @@ int main() {
     float SI;
     
     printf("Enter the principal: ");
-    scanf("%d", &P);
+    scanf("%f", &P);
     
     printf("Enter the rate: ");
-    scanf("%d", &R);
+    scanf("%f", &R);
     
     printf("Enter the time: ");
-    scanf("%d", &T);
+    scanf("%f", &T);
     
     SI = (P * R * T) / 100;
     printf("The Simple interest is %d", SI);
